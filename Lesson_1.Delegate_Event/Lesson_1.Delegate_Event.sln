@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq_1.2_Select", "..\Linq_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq_1.3_OrderBy", "..\Linq_1.3_OrderBy\Linq_1.3_OrderBy.csproj", "{AB84669E-69B8-4124-BD06-3C2DEFD5576D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Link_1.4_ThenBy", "..\Link_1.4_ThenBy\Link_1.4_ThenBy.csproj", "{2F53AF21-0650-48E5-97BD-83B7BC116E48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Link_1.4_ThenBy", "..\Link_1.4_ThenBy\Link_1.4_ThenBy.csproj", "{2F53AF21-0650-48E5-97BD-83B7BC116E48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_1.5_Take.Skip", "..\Linq_1.5_Take.Skip\Linq_1.5_Take.Skip.csproj", "{E7E71540-4087-4734-89B4-624FB09E56BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq_1.5_Take.Skip", "..\Linq_1.5_Take.Skip\Linq_1.5_Take.Skip.csproj", "{E7E71540-4087-4734-89B4-624FB09E56BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_2.Nullable", "..\Lesson_2.Nullable\Lesson_2.Nullable.csproj", "{B47C5DC8-E53C-4929-8A83-3E6D3488A460}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{E7E71540-4087-4734-89B4-624FB09E56BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7E71540-4087-4734-89B4-624FB09E56BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7E71540-4087-4734-89B4-624FB09E56BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B47C5DC8-E53C-4929-8A83-3E6D3488A460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B47C5DC8-E53C-4929-8A83-3E6D3488A460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B47C5DC8-E53C-4929-8A83-3E6D3488A460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B47C5DC8-E53C-4929-8A83-3E6D3488A460}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

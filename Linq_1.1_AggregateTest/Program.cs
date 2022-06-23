@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Collections.Generic;
+
 IList<int> numbers = new List<int> { 1, 2, 10, 800, -1100, 250, 0, -20, 7, -1 };
 Console.WriteLine("GetMinimalElement: {0}", GetMinimalElement(numbers).ToString());
 Console.WriteLine("LINQ Extensions: {0}", numbers.Min());
