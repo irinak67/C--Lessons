@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_2.Nullable", "..\Les
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_2.RefVSVal", "..\Lesson_2.RefVSVal\Lesson_2.RefVSVal.csproj", "{77A076E3-BECA-4188-9299-84F0A35DD434}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_3.Boxing_Unboxing", "..\Lesson_3.Boxing_Unboxing\Lesson_3.Boxing_Unboxing.csproj", "{6AE49BFF-01BA-43F9-8B66-A406D75C5575}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_3.Boxing_Unboxing", "..\Lesson_3.Boxing_Unboxing\Lesson_3.Boxing_Unboxing.csproj", "{6AE49BFF-01BA-43F9-8B66-A406D75C5575}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_4.ExtensionMethod", "..\Lesson_4.ExtensionMethod\Lesson_4.ExtensionMethod.csproj", "{22E3F77F-39E1-47A2-BEBC-80D2047E2A6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{6AE49BFF-01BA-43F9-8B66-A406D75C5575}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AE49BFF-01BA-43F9-8B66-A406D75C5575}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AE49BFF-01BA-43F9-8B66-A406D75C5575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E3F77F-39E1-47A2-BEBC-80D2047E2A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E3F77F-39E1-47A2-BEBC-80D2047E2A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E3F77F-39E1-47A2-BEBC-80D2047E2A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E3F77F-39E1-47A2-BEBC-80D2047E2A6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
