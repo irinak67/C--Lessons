@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_2.RefVSVal", "..\Les
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_3.Boxing_Unboxing", "..\Lesson_3.Boxing_Unboxing\Lesson_3.Boxing_Unboxing.csproj", "{6AE49BFF-01BA-43F9-8B66-A406D75C5575}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_4.ExtensionMethod", "..\Lesson_4.ExtensionMethod\Lesson_4.ExtensionMethod.csproj", "{22E3F77F-39E1-47A2-BEBC-80D2047E2A6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_4.ExtensionMethod", "..\Lesson_4.ExtensionMethod\Lesson_4.ExtensionMethod.csproj", "{22E3F77F-39E1-47A2-BEBC-80D2047E2A6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_5.Checked_Unchecked", "..\Lesson_5.Checked_Unchecked\Lesson_5.Checked_Unchecked.csproj", "{1129F20C-EA7D-4B87-928D-93DFB210F509}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{22E3F77F-39E1-47A2-BEBC-80D2047E2A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22E3F77F-39E1-47A2-BEBC-80D2047E2A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22E3F77F-39E1-47A2-BEBC-80D2047E2A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1129F20C-EA7D-4B87-928D-93DFB210F509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1129F20C-EA7D-4B87-928D-93DFB210F509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1129F20C-EA7D-4B87-928D-93DFB210F509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1129F20C-EA7D-4B87-928D-93DFB210F509}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
