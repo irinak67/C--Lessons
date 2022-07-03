@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_5.Checked_Unchecked"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_6.GarbageCollection_disponse_destruction", "..\Lesson_6.GarbageCollection_disponse_destruction\Lesson_6.GarbageCollection_disponse_destruction.csproj", "{F9C388F6-30FC-478E-B3FA-D53C342CDED2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_6.Indexer_Yield", "..\Lesson_6.Indexer_Yield\Lesson_6.Indexer_Yield.csproj", "{6BC6C755-47D2-4510-9FCF-C3471682B135}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{F9C388F6-30FC-478E-B3FA-D53C342CDED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9C388F6-30FC-478E-B3FA-D53C342CDED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9C388F6-30FC-478E-B3FA-D53C342CDED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BC6C755-47D2-4510-9FCF-C3471682B135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC6C755-47D2-4510-9FCF-C3471682B135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC6C755-47D2-4510-9FCF-C3471682B135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC6C755-47D2-4510-9FCF-C3471682B135}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
