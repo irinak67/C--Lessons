@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_6.Indexer_Yield", ".
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_7.Attribute_Reflection", "..\Lesson_7.Attribute_Reflection\Lesson_7.Attribute_Reflection.csproj", "{FF333135-75D3-42D7-8CF7-73C9F2B57710}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_8.Generic", "..\Lesson_8.Generic\Lesson_8.Generic.csproj", "{E72CC787-D298-4F96-9F13-BE1D16FCCE01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_8.Generic", "..\Lesson_8.Generic\Lesson_8.Generic.csproj", "{E72CC787-D298-4F96-9F13-BE1D16FCCE01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_0.ConvertingVar", "..\Lesson_0.ConvertingVar\Lesson_0.ConvertingVar.csproj", "{EF633FCC-0960-435A-810B-CCF293005F6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{E72CC787-D298-4F96-9F13-BE1D16FCCE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E72CC787-D298-4F96-9F13-BE1D16FCCE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E72CC787-D298-4F96-9F13-BE1D16FCCE01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF633FCC-0960-435A-810B-CCF293005F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF633FCC-0960-435A-810B-CCF293005F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF633FCC-0960-435A-810B-CCF293005F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF633FCC-0960-435A-810B-CCF293005F6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

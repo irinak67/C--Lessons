@@ -10,7 +10,7 @@
 //struct
 
 ////ref      Heap
-//string s = "hjjjnk";
+//string s = "hello";
 //Array arr;
 //Object;
 
