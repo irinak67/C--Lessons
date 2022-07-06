@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_0.Array.List", "..\L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_0.If.Switch", "..\Lesson_0.If.Switch\Lesson_0.If.Switch.csproj", "{637C2346-EC62-4DE9-880F-DE3C5A057B6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_0.IterationOperators", "..\Lesson_0.IterationOperators\Lesson_0.IterationOperators.csproj", "{4AE8EF04-706E-4A47-9A21-EE5127042231}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{637C2346-EC62-4DE9-880F-DE3C5A057B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{637C2346-EC62-4DE9-880F-DE3C5A057B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{637C2346-EC62-4DE9-880F-DE3C5A057B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AE8EF04-706E-4A47-9A21-EE5127042231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE8EF04-706E-4A47-9A21-EE5127042231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE8EF04-706E-4A47-9A21-EE5127042231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE8EF04-706E-4A47-9A21-EE5127042231}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
