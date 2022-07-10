@@ -35,13 +35,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_7.Attribute_Reflecti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_8.Generic", "..\Lesson_8.Generic\Lesson_8.Generic.csproj", "{E72CC787-D298-4F96-9F13-BE1D16FCCE01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_0.ConvertingVar", "..\Lesson_0.ConvertingVar\Lesson_0.ConvertingVar.csproj", "{EF633FCC-0960-435A-810B-CCF293005F6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_0.ConvertingVar", "..\Lesson_0.ConvertingVar\Lesson_0.ConvertingVar.csproj", "{EF633FCC-0960-435A-810B-CCF293005F6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_0.Array.List", "..\Lesson_0.Array.List\Lesson_0.Array.List.csproj", "{EC3C6036-A6EE-42D9-9192-64302450E3EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_0.Array.List", "..\Lesson_0.Array.List\Lesson_0.Array.List.csproj", "{EC3C6036-A6EE-42D9-9192-64302450E3EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_0.If.Switch", "..\Lesson_0.If.Switch\Lesson_0.If.Switch.csproj", "{637C2346-EC62-4DE9-880F-DE3C5A057B6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_0.If.Switch", "..\Lesson_0.If.Switch\Lesson_0.If.Switch.csproj", "{637C2346-EC62-4DE9-880F-DE3C5A057B6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_0.IterationOperators", "..\Lesson_0.IterationOperators\Lesson_0.IterationOperators.csproj", "{4AE8EF04-706E-4A47-9A21-EE5127042231}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_0.IterationOperators", "..\Lesson_0.IterationOperators\Lesson_0.IterationOperators.csproj", "{4AE8EF04-706E-4A47-9A21-EE5127042231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_9.Serialization", "..\Lesson_9.Serialization\Lesson_9.Serialization.csproj", "{A9613899-4E2F-41B4-B8EC-CFB01B160FE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{4AE8EF04-706E-4A47-9A21-EE5127042231}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AE8EF04-706E-4A47-9A21-EE5127042231}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AE8EF04-706E-4A47-9A21-EE5127042231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9613899-4E2F-41B4-B8EC-CFB01B160FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9613899-4E2F-41B4-B8EC-CFB01B160FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9613899-4E2F-41B4-B8EC-CFB01B160FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9613899-4E2F-41B4-B8EC-CFB01B160FE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
