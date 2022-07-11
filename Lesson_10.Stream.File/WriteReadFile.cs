@@ -18,6 +18,7 @@ namespace Lesson_10.Stream.File
         {
             Console.Write("Insert name:\t");
             string name = Console.ReadLine();
+            //TODO: 
             //while (true)
             //{
             //    string input = Console.ReadLine();
