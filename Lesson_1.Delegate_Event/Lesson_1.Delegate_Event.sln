@@ -55,7 +55,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_11.Async.Await.Threa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_12.Socket.Client", "..\Lesson_12.Socket.Client\Lesson_12.Socket.Client.csproj", "{570D2C2B-6D3E-4345-BFC7-F7B5FD98E536}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_12.Socket.Server", "..\Lesson_12.Socket.Server\Lesson_12.Socket.Server.csproj", "{1A0E3366-3883-4BA6-A5FF-0AF3B6E3D66D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_12.Socket.Server", "..\Lesson_12.Socket.Server\Lesson_12.Socket.Server.csproj", "{1A0E3366-3883-4BA6-A5FF-0AF3B6E3D66D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_0.ClassConstructorProperty", "..\Lesson_0.ClassConstructorProperty\Lesson_0.ClassConstructorProperty.csproj", "{F8D27F76-FDE3-418C-A0D7-B1C2A2B4486D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +173,10 @@ Global
 		{1A0E3366-3883-4BA6-A5FF-0AF3B6E3D66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A0E3366-3883-4BA6-A5FF-0AF3B6E3D66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A0E3366-3883-4BA6-A5FF-0AF3B6E3D66D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8D27F76-FDE3-418C-A0D7-B1C2A2B4486D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D27F76-FDE3-418C-A0D7-B1C2A2B4486D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D27F76-FDE3-418C-A0D7-B1C2A2B4486D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D27F76-FDE3-418C-A0D7-B1C2A2B4486D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
