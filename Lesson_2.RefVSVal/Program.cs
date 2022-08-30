@@ -1,6 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-
-//// value type   Stack
+//// value type
 //int i = 5;
 //double a = 5.1;
 //char c = 'a';
@@ -8,7 +7,6 @@
 //decimal d = 0.5M;
 //float f = 5.3f;
 //struct
-
 ////ref      Heap
 //string s = "hello";
 //Array arr;
