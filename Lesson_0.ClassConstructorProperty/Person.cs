@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Lesson_0.ClassConstructorProperty
+namespace Lesson_0.ClassConstructorPropertyRecursion
 {
     public class Person
     {

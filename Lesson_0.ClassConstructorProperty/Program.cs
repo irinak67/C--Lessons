@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using Lesson_0.ClassConstructorProperty;
+using Lesson_0.ClassConstructorPropertyRecursion;
 
 static int Factorial(int value)
 {

@@ -57,7 +57,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_12.Socket.Client", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_12.Socket.Server", "..\Lesson_12.Socket.Server\Lesson_12.Socket.Server.csproj", "{1A0E3366-3883-4BA6-A5FF-0AF3B6E3D66D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_0.ClassConstructorProperty", "..\Lesson_0.ClassConstructorProperty\Lesson_0.ClassConstructorProperty.csproj", "{F8D27F76-FDE3-418C-A0D7-B1C2A2B4486D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_0.ClassConstructorPropertyRecursion", "..\Lesson_0.ClassConstructorProperty\Lesson_0.ClassConstructorPropertyRecursion.csproj", "{F8D27F76-FDE3-418C-A0D7-B1C2A2B4486D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
