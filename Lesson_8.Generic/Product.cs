@@ -14,9 +14,25 @@ namespace Lesson_8.Generic
 
         public Product(string name, int volume, int energy)
         {
-            Name = name;
-            Volume = volume;
-            Energy = energy;    
+            if (string.IsNullOrEmpty(nameof(name)))
+            {
+                throw new ArgumentNullException(nameof(name));
+            }
+            else if (volume <= 0)
+            {
+                throw new ArgumentException(nameof(volume));
+            }
+            else if (energy < 0)
+            {
+                throw new ArgumentException(nameof(energy));
+            }
+            else
+            {
+                Name = name;
+                Volume = volume;
+                Energy = energy;
+            }
+              
         }
     }
 }

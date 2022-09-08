@@ -15,7 +15,7 @@ namespace Lesson_1.Delegate_Event
 
         public void TakeTime(DateTime now)
         {
-            if (now.Hour <= 8)
+            if (now.Hour < 8 || now.Hour > 21)
                 GoToSleep?.Invoke();
             else
                 DoWork?.Invoke(this, null);

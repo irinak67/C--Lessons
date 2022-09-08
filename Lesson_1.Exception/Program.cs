@@ -2,6 +2,24 @@
 
 using Lesson_1.Exception;
 
+int result = 0;
+while (true)
+{
+    var input = Console.ReadLine();
+
+    if (int.TryParse(input, out result))
+    {
+        Console.WriteLine(result);
+        break;
+    }
+    else
+    {
+        Console.WriteLine("incorrect input. please try again");
+    }
+}
+Console.WriteLine(result);
+
+
 int i = 5;
 try
 {

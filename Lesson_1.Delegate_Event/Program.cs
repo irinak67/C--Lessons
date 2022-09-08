@@ -40,14 +40,41 @@ class Program
         //Action action = Method1;
         //action();
 
-        //Predicate<int> predicate;        //public delegate bool Predicate(int value);
+        //Predicate<int> predicate;                           //public delegate bool Predicate(int value);
 
-        ////Func<string, char, int> func;          //public delegate int Func(string value, char value)
+        ////Func<string, char, int> func;                     //public delegate int Func(string value, char value)
         //Func<int, int> func = MethodValue;
-        //if (func != null)  func(7);              // = func?.Invoke(7)
+        //if (func != null)  func(7);                         // = func?.Invoke(7)
 
 
         //Console.ReadLine();
+
+        //public static int MethodValue(int i)
+        //{
+        //    Console.WriteLine(i);
+        //    return i;
+        //}
+
+        //public static void Method1()
+        //{
+        //    Console.WriteLine("Method1");
+        //}
+
+        //public static int Method2()
+        //{
+        //    Console.WriteLine("Method2");
+        //    return 0;
+        //}
+
+        //public static void Method3(int i)
+        //{
+        //    Console.WriteLine("Method3");
+        //}
+
+        //public static void Method4()
+        //{
+        //    Console.WriteLine("Method4");
+        //}
         #endregion
 
         Person person = new Person()
@@ -58,14 +85,16 @@ class Program
         person.DoWork += Person_DoWork;
         person.TakeTime(DateTime.Parse("21.06.2022 13:59:15"));
         person.TakeTime(DateTime.Parse("21.06.2022 05:15:04"));
+        person.TakeTime(DateTime.Parse("21.06.2022 08:15:04"));
+        person.TakeTime(DateTime.Parse("21.06.2022 22:15:04"));
 
+        Console.WriteLine(Sum(5, 5, Calc));
+        Console.WriteLine(Sum(5, 5, Calc1));
 
         Events events = new Events();
         Operate operate = new Operate();
         operate.Register();
-    }
-
-   
+    }   
 
     private static void Person_DoWork(object? sender, EventArgs e)
     {
@@ -78,36 +107,18 @@ class Program
         Console.WriteLine("The man went to bed"); 
     }
 
-    
+    private static int Sum(int a, int b, Func<int, int, int> calc)
+    {
+        return calc(a,b);
+    }
 
+    private static int Calc(int i, int j)
+    {
+        return i + j;
+    }
 
-
-
-
-    //public static int MethodValue(int i)
-    //{
-    //    Console.WriteLine(i);
-    //    return i;
-    //}
-
-    //public static void Method1()
-    //{
-    //    Console.WriteLine("Method1");
-    //}
-
-    //public static int Method2()
-    //{
-    //    Console.WriteLine("Method2");
-    //    return 0;
-    //}
-
-    //public static void Method3(int i)
-    //{
-    //    Console.WriteLine("Method3");
-    //}
-
-    //public static void Method4()
-    //{
-    //    Console.WriteLine("Method4");
-    //}
+    private static int Calc1(int i, int j)
+    {
+        return i * j;
+    }
 }
